@@ -1,19 +1,24 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
 
-import { VideoContainer, ResponsiveIframe } from './styles';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import CadastroVideo from './pages/cadastro/Video';
+import CadastroCategoria from './pages/cadastro/Categoria';
 
-function YouTubeIframeResponsive({ youtubeID }) {
-  return (
-    <VideoContainer>
-      <ResponsiveIframe
-        title="Titulo do Iframe"
-        src={`https://www.youtube.com/embed/${youtubeID}?autoplay=0&mute=1`}
-        frameBorder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      />
-    </VideoContainer>
-  );
-}
+// Desafio master blaster na descrição
+// Colocar um jogo ou brincadeira nessa página:
+const Pagina404 = 'Página 404'
 
-export default YouTubeIframeResponsive;
+ReactDOM.render(
+  <BrowserRouter>
+    <Switch>
+      <Route path="/" component={Home} exact />
+      <Route path="/cadastro/video" component={CadastroVideo} />
+      <Route path="/cadastro/categoria" component={CadastroCategoria} />
+      <Route component={Pagina404} />
+    </Switch>
+  </BrowserRouter>,
+  document.getElementById('root')
+);
