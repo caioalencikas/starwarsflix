@@ -3,7 +3,7 @@
     {
       "id": 1,
       "titulo": "Original",
-      "cor": "red",
+      "cor": "#00C86F",
       "link_extra": {
         "text": "I am your father",
         "url": "https://en.wikipedia.org/wiki/Star_Wars_Trilogy"
@@ -21,7 +21,7 @@
     {
       "id": 3,
       "titulo": "Sequel",
-      "cor": "#6BD1FF",
+      "cor": "#4682B4",
       "link_extra": {
         "text": "We are home",
         "url": "https://en.wikipedia.org/wiki/Star_Wars_sequel_trilogy"
@@ -30,7 +30,7 @@
     {
       "id": 4,
       "titulo": "Spin-offs",
-      "cor": "#6BD1FF",
+      "cor": "#D3D3D3",
       "link_extra": {
         "text": "I am one with the force and the force is with me",
         "url": "https://pt.wikipedia.org/wiki/Lista_de_filmes_e_s%C3%A9ries_televisivas_de_Star_Wars"
@@ -57,7 +57,7 @@
     {
       "id": 7,
       "titulo": "Jedi",
-      "cor": "#9cd33b",
+      "cor": "#6BD1FF",
       "link_extra": {
         "text": "There is no emotion, there is PEACE",
         "url": "https://pt.wikipedia.org/wiki/Jedi"
@@ -66,7 +66,7 @@
     {
       "id": 8,
       "titulo": "Sith",
-      "cor": "#9cd33b",
+      "cor": "red",
       "link_extra": {
         "text": "Peace is a lie, there is only PASSION",
         "url": "https://pt.wikipedia.org/wiki/Sith"
