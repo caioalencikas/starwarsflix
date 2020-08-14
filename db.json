@@ -1,44 +1,75 @@
 {
   "categorias": [
     {
-      "id": 5,
-      "titulo": "Games",
+      "id": 1,
+      "titulo": "Original",
       "cor": "red",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
-      }
-    },
-    {
-      "id": 4,
-      "titulo": "Filmes",
-      "cor": "orange"
-    },
-    {
-      "id": 1,
-      "titulo": "Front End",
-      "cor": "#6BD1FF",
-      "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "I am your father",
+        "url": "https://en.wikipedia.org/wiki/Star_Wars_Trilogy"
       }
     },
     {
       "id": 2,
-      "titulo": "Back End",
-      "cor": "#00C86F",
+      "titulo": "Prequel",
+      "cor": "orange",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Hello there",
+        "url": "https://en.wikipedia.org/wiki/Star_Wars_prequel_trilogy"
       }
     },
     {
       "id": 3,
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Sequel",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "We are home",
+        "url": "https://en.wikipedia.org/wiki/Star_Wars_sequel_trilogy"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Spin-offs",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "I am one with the force and the force is with me",
+        "url": "https://pt.wikipedia.org/wiki/Lista_de_filmes_e_s%C3%A9ries_televisivas_de_Star_Wars"
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Books",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "One to embody the power, the other to crave it",
+        "url": "https://pt.wikipedia.org/wiki/Lista_de_livros_de_Star_Wars"
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "Games",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/cursos-online-mobile"
+        "text": "Rebel scum!",
+        "url": "https://pt.wikipedia.org/wiki/Lista_de_jogos_de_Star_Wars"
+      }
+    },
+    {
+      "id": 7,
+      "titulo": "Jedi",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "There is no emotion, there is PEACE",
+        "url": "https://pt.wikipedia.org/wiki/Jedi"
+      }
+    },
+    {
+      "id": 8,
+      "titulo": "Sith",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Peace is a lie, there is only PASSION",
+        "url": "https://pt.wikipedia.org/wiki/Sith"
       }
     }
   ],
@@ -46,159 +77,201 @@
     {
       "id": 1,
       "categoriaId": 1,
-      "titulo": "SEO com React",
-      "description": "Será que é tão difícil fazer SEO com React?",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "titulo": "Original Trilogy",
+      "description": "Do... or do not. There is no try.",
+      "url": "https://www.youtube.com/watch?v=bgNWoBQ0hHI"
+    },
+    {
+      "id": 24,
+      "categoriaId": 1,
+      "titulo": "The Empire Strikes Back",
+      "url": "https://www.youtube.com/watch?v=ua0omrHbhMY"
+    },
+    {
+      "id": 24,
+      "categoriaId": 1,
+      "titulo": "Return of the Jedi",
+      "url": "https://www.youtube.com/watch?v=cM53X5Nqjbc"
+    },
+    {
+      "id": 20,
+      "categoriaId": 1,
+      "titulo": "A New Hope",
+      "url": "https://www.youtube.com/watch?v=MpkrMqmmy5k"
     },
     {
       "id": 2,
-      "categoriaId": 1,
-      "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
-    },
-    {
-      "id": 3,
-      "categoriaId": 1,
-      "titulo": "Componentização com VanillaJS #AluraMais",
-      "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
-    },
-    {
-      "id": 4,
-      "categoriaId": 1,
-      "titulo": "Pare de chutar e aprenda a display: inline #01",
-      "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+      "categoriaId": 2,
+      "titulo": "Prequel Trilogy",
+      "url": "https://www.youtube.com/watch?v=ivLOoD9sQHA"
     },
     {
       "id": 5,
-      "categoriaId": 1,
-      "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-      "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
-    },
-    {
-      "id": 6,
-      "categoriaId": 1,
-      "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
-    },
-    {
-      "id": 7,
-      "categoriaId": 1,
-      "titulo": "Novidades do Angular v9",
-      "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
-    },
-    {
-      "id": 8,
       "categoriaId": 2,
-      "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-      "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
-    },
-    {
-      "id": 9,
-      "categoriaId": 2,
-      "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-      "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
-    },
-    {
-      "id": 10,
-      "categoriaId": 2,
-      "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-      "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+      "titulo": "The Chosen One",
+      "url": "https://www.youtube.com/watch?v=wk0bRElYuXk&t=494s"
     },
     {
       "id": 11,
       "categoriaId": 2,
-      "titulo": "API: Dicionário do Programador",
-      "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-    },
-    {
-      "id": 12,
-      "categoriaId": 2,
-      "titulo": "Usando Git Direito",
-      "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
-    },
-    {
-      "id": 13,
-      "categoriaId": 3,
-      "titulo": "Teste de Turing",
-      "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
-    },
-    {
-      "id": 14,
-      "categoriaId": 3,
-      "titulo": "O que é Data Science?",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
-    },
-    {
-      "id": 15,
-      "categoriaId": 3,
-      "titulo": "Melhor forma de aprender Python",
-      "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
-    },
-    {
-      "id": 16,
-      "categoriaId": 3,
-      "titulo": "Como ingressar no mercado de Data Science?",
-      "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
-    },
-    {
-      "id": 17,
-      "categoriaId": 4,
-      "titulo": "Interestellar",
-      "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
-    },
-    {
-      "id": 18,
-      "categoriaId": 4,
-      "titulo": "Gattaca",
-      "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
-    },
-    {
-      "id": 19,
-      "categoriaId": 4,
-      "titulo": "A Chegada",
-      "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
-    },
-    {
-      "id": 20,
-      "categoriaId": 4,
-      "titulo": "Feitiço do Tempo",
-      "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+      "titulo": "The 501st - Our Duty",
+      "url": "https://www.youtube.com/watch?v=Bwx0ODb0pKE"
     },
     {
       "id": 21,
-      "categoriaId": 5,
-      "titulo": "Final Fantasy 7",
-      "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+      "categoriaId": 2,
+      "titulo": "Revenge of the Sith",
+      "url": "https://www.youtube.com/watch?v=opfJIo__ANQ"
     },
     {
       "id": 22,
-      "categoriaId": 5,
-      "titulo": "Assassins Creed Valhalla",
-      "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+      "categoriaId": 2,
+      "titulo": "The Phantom Menace",
+      "url": "https://www.youtube.com/watch?v=bD7bpG-zDJQ"
     },
     {
       "id": 23,
-      "categoriaId": 5,
-      "titulo": "God of War 4",
-      "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+      "categoriaId": 2,
+      "titulo": "Attack of the Clones",
+      "url": "https://www.youtube.com/watch?v=gYbW1F_c9eM"
+    },
+    {
+      "id": 24,
+      "categoriaId": 2,
+      "titulo": "Clone Wars",
+      "url": "https://www.youtube.com/watch?v=QbeKgolVeUU"
+    },
+    {
+      "id": 8,
+      "categoriaId": 3,
+      "titulo": "Sequel Trilogy",
+      "url": "https://youtu.be/DpL_tcLg6d0"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "The Force Awakens",
+      "url": "https://www.youtube.com/watch?v=sGbxmsDFVnE"
+    },
+    {
+      "id": 18,
+      "categoriaId": 3,
+      "titulo": "The Rise of Skywalker",
+      "url": "https://www.youtube.com/watch?v=8Qn_spdM5Zg"
+    },
+    {
+      "id": 19,
+      "categoriaId": 3,
+      "titulo": "The Last Jedi",
+      "url": "https://www.youtube.com/watch?v=Q0CbN8sfihY"
+    },
+    {
+      "id": 24,
+      "categoriaId": 4,
+      "titulo": "Rogue One: A Star Wars Story",
+      "url": "https://www.youtube.com/watch?v=frdj1zb9sMY"
+    },
+    {
+      "id": 24,
+      "categoriaId": 4,
+      "titulo": "Solo: A Star Wars Story",
+      "url": "https://www.youtube.com/watch?v=jPEYpryMp2s"
     },
     {
       "id": 24,
       "categoriaId": 5,
-      "titulo": "Resident Evil 8",
-      "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+      "titulo": "Good Books: Canon + Legends",
+      "url": "https://youtu.be/2oWAdzgL32Q"
     },
     {
-      "titulo": "Vídeo padrão",
-      "url": "https://www.youtube.com/watch?v=-flB3ROJgxQ",
-      "categoriaId": 1,
-      "id": 25
+      "id": 24,
+      "categoriaId": 5,
+      "titulo": "Canon Books",
+      "url": "https://youtu.be/K4UqQr5hrd0"
     },
     {
-      "titulo": "Vídeo padrão",
-      "url": "https://www.youtube.com/watch?v=-flB3ROJgxQ",
-      "categoriaId": 2,
-      "id": 26
+      "id": 24,
+      "categoriaId": 5,
+      "titulo": "Legends Books",
+      "url": "https://youtu.be/fTNuXqX1t6A"
+    },
+    {
+      "id": 24,
+      "categoriaId": 6,
+      "titulo": "Battlefront II",
+      "url": "https://www.youtube.com/watch?v=_q51LZ2HpbE"
+    },
+    {
+      "id": 24,
+      "categoriaId": 6,
+      "titulo": "Fallen Order",
+      "url": "https://www.youtube.com/watch?v=0GLbwkfhYZk"
+    },
+    {
+      "id": 4,
+      "categoriaId": 7,
+      "titulo": "Ashoka - I am no Jedi",
+      "url": "https://youtu.be/dQKs6U8eWoQ"
+    },
+    {
+      "id": 7,
+      "categoriaId": 7,
+      "titulo": "Kenobi",
+      "url": "https://www.youtube.com/watch?v=pykJCXKhllA"
+    },
+    {
+      "id": 10,
+      "categoriaId": 7,
+      "titulo": "Victory and Death",
+      "url": "https://www.youtube.com/watch?v=o9_vSjlDl9s"
+    },
+    {
+      "id": 14,
+      "categoriaId": 7,
+      "titulo": "Luke Skywalker - A New Hope",
+      "url": "https://www.youtube.com/watch?v=Rme4HrOL8vw"
+    },
+    {
+      "id": 15,
+      "categoriaId": 7,
+      "titulo": "Yoda",
+      "url": "https://www.youtube.com/watch?v=uE9XhRBFZNs"
+    },
+    {
+      "id": 16,
+      "categoriaId": 7,
+      "titulo": "Mace Windu",
+      "url": "https://www.youtube.com/watch?v=rXCFq6D3SGs"
+    },
+    {
+      "id": 6,
+      "categoriaId": 8,
+      "titulo": "Darth Vader - Anger",
+      "url": "https://www.youtube.com/watch?v=BNF4LTIVXlI"
+    },
+    {
+      "id": 9,
+      "categoriaId": 8,
+      "titulo": "Kylo Ren",
+      "url": "https://www.youtube.com/watch?v=mmzZ1tJwIHA"
+    },
+    {
+      "id": 12,
+      "categoriaId": 8,
+      "titulo": "Darth Bane - The Rule of Two",
+      "url": "https://youtu.be/0lO5I3dypuE"
+    },
+    {
+      "id": 13,
+      "categoriaId": 8,
+      "titulo": "Dath Revan",
+      "url": "https://www.youtube.com/watch?v=DzDXw78jeys"
+    },
+    {
+      "id": 3,
+      "categoriaId": 8,
+      "titulo": "Darth Maul - Hatred",
+      "url": "https://www.youtube.com/watch?v=vVkUglhoon0"
     }
   ]
 }
